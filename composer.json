@@ -1,0 +1,24 @@
+{
+  "name": "brightnucleus/validation",
+  "description": "Collection of validation tools.",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alain Schlesser",
+      "email": "alain.schlesser@gmail.com"
+    }
+  ],
+  "require": {
+    "brightnucleus/exceptions": ">=0.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6"
+  },
+  "autoload": {
+    "psr-4": {
+      "BrightNucleus\\Validation\\": "src/"
+    }
+  }
+}
